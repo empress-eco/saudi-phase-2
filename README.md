@@ -1,38 +1,64 @@
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" />
+  <h1 align="center">Saudi E-Invoice: Your Gateway to Effortless E-Invoicing</h1>
+  <p align="center">
+    Streamline your VAT implementation with Saudi E-Invoice
+    <br />
+    <a href="https://github.com/empress-eco/saudi-phase-2">Explore the Docs</a>
+    ·
+    <a href="https://github.com/empress-eco/saudi-phase-2/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/saudi-phase-2/issues/new">Request Feature</a>
+    ·
+    <a href="https://grow.empress.eco/">Support</a>
+  </p>
+</div>
 
-**For the latest app with 2024 zatca guidlines , please use this link.  https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024
-**
+## About The Project
 
-## Saudi Einvoice
+### 📖 Overview
+Saudi E-Invoice is a specialized solution designed to simplify e-invoicing in Saudi Arabia. This tool facilitates the phase-2 implementation of Saudi VAT on your Empress system, conforming to the guidelines provided by Zatca.
 
-An app for e-invoicing in Saudi Arabia
+### 🌟 Key Features
+- Generate XML Document with UBL 2.1 Standard
+- Create XML file with comprehensive Invoice information
+- Generate Digest and Signature Values
+- Add Certificate in UBLextension
+- Integrate with Zatca API for compliance and reporting
 
-#### License
+## Getting Started
 
-MIT
+### Prerequisites
+- You should have Empress installed and configured on your system.
 
-This app enables phase-2 implemetation of Saudi VAT on ERPNext.
-More details about Saudi E-Inovicing phase-2 is available on Zatca website.
+### Installation
+To get started with Saudi E-Invoice, follow these steps:
 
-The purpose of this App is to enable ERPNext user to follow the steps prescribed in the Zatca website.
+1. Clone the repository
+```sh
+git clone https://github.com/empress-eco/saudi-phase-2.git
+```
+2. Follow the further instructions provided in the [documentation](https://grow.empress.eco/) to configure and use the application.
 
-1- Create XML Document with UBL 2.1 Standard
+## Usage
+Once you've installed Saudi E-Invoice, you can begin to create XML documents with the UBL 2.1 standard, generate digest and signature values, add certificates in UBLextension, and integrate with the Zatca API for compliance and reporting.
 
-2- Generate the XML file with Invoice information (Supplier, Customer, Items, calculations)
+## Contributing
+We welcome and appreciate contributions! Here's how you can contribute:
 
-3- Generate Digest Value for XML hash
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
 
-4- Generate Digest Value for XADES Signed properties.
+## License and Acknowledgements
 
-5- Generate Signature Value
+### License
 
-6- Adding Certificate in UBLextension
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-7- Generate Xades information
+### Acknowledgements
+Special thanks to everyone who has contributed to making Saudi E-Invoicing a reality. Your time and expertise are deeply appreciated.
 
-8- Use Zatca API to retrieve
-   a- Recieve Compliance CSID from Zatca through API 
-   b- Recieve Production CSID from Zatca through API 
-   c- API for reporting and Clearance.
-   
-   Some features are still under development. We will keep updating this document. For any suggestions and support please contact support@ERPGulf.com
-   we wll also update the development on on ERPGulf website. 
+We are profoundly grateful to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on.
